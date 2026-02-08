@@ -1,10 +1,12 @@
 import React from 'react'
+import navbar from './navbar'
 
 const section1 = () => {
   return (
-    <div>
-      
-    </div>
+   <div className='h-screen w-screen'>
+    {navbar()}
+    
+   </div>
   )
 }
 
