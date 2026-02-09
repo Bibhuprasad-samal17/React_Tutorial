@@ -5,7 +5,7 @@ const section1 = () => {
   return (
    <div className='h-screen w-screen'>
     {navbar()}
-    
+    {navbar()}
    </div>
   )
 }
