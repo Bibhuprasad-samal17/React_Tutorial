@@ -1,13 +1,14 @@
 import React from 'react'
-import navbar from './navbar'
+import Navbar from './navbar'
+import Page1Content from './page1content'
 
-const section1 = () => {
+const Section1 = () => {
   return (
-   <div className='h-screen w-screen'>
-    {navbar()}
-    {navbar()}
-   </div>
+    <div className='h-screen w-screen'>
+      <Navbar />
+      <Page1Content />
+    </div>
   )
 }
 
-export default section1
+export default Section1
